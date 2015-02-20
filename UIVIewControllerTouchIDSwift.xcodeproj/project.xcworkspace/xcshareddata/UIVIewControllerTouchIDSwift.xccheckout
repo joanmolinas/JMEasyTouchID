@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>55309007-71B4-4362-91C3-829975D910D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIVIewControllerTouchIDSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C2F15C28883B2D139ABF825952F6AD4F75D3937</key>
+		<string>https://github.com/ulidev/TouchIDExtension.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIVIewControllerTouchIDSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C2F15C28883B2D139ABF825952F6AD4F75D3937</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ulidev/TouchIDExtension.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C2F15C28883B2D139ABF825952F6AD4F75D3937</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C2F15C28883B2D139ABF825952F6AD4F75D3937</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TouchIDExtension</string>
+		</dict>
+	</array>
+</dict>
+</plist>

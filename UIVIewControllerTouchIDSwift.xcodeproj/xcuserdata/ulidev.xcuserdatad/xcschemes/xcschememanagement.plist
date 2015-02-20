@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>JMEasyTouchID.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>UIVIewControllerTouchIDSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>UIViewcontroller+TouchID.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>BEC264CD1A97797000F99FFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEC264E21A97797000F99FFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEC264F61A9779A200F99FFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEC265091A9779EB00F99FFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

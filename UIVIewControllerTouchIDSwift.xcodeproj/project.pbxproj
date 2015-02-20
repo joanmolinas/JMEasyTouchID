@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC264D41A97797000F99FFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC264D31A97797000F99FFB /* AppDelegate.swift */; };
+		BEC264D61A97797000F99FFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC264D51A97797000F99FFB /* ViewController.swift */; };
+		BEC264D91A97797000F99FFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEC264D71A97797000F99FFB /* Main.storyboard */; };
+		BEC264DB1A97797000F99FFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC264DA1A97797000F99FFB /* Images.xcassets */; };
+		BEC264DE1A97797000F99FFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC264DC1A97797000F99FFB /* LaunchScreen.xib */; };
+		BEC264EA1A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC264E91A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.swift */; };
+		BEC265191A977A1F00F99FFB /* JMEasyTouchID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC265181A977A1F00F99FFB /* JMEasyTouchID.swift */; };
+		BEC2651B1A977FF500F99FFB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC2651A1A977FF500F99FFB /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC264E41A97797000F99FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC264C61A97797000F99FFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC264CD1A97797000F99FFB;
+			remoteInfo = UIVIewControllerTouchIDSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BEC265051A9779A200F99FFB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BEC264CE1A97797000F99FFB /* UIVIewControllerTouchIDSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIVIewControllerTouchIDSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC264D21A97797000F99FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC264D31A97797000F99FFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEC264D51A97797000F99FFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEC264D81A97797000F99FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEC264DA1A97797000F99FFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEC264DD1A97797000F99FFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BEC264E31A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIVIewControllerTouchIDSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC264E81A97797000F99FFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEC264E91A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIVIewControllerTouchIDSwiftTests.swift; sourceTree = "<group>"; };
+		BEC265181A977A1F00F99FFB /* JMEasyTouchID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMEasyTouchID.swift; sourceTree = "<group>"; };
+		BEC2651A1A977FF500F99FFB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC264CB1A97797000F99FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC2651B1A977FF500F99FFB /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC264E01A97797000F99FFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC264C51A97797000F99FFB = {
+			isa = PBXGroup;
+			children = (
+				BEC2651A1A977FF500F99FFB /* LocalAuthentication.framework */,
+				BEC264D01A97797000F99FFB /* UIVIewControllerTouchIDSwift */,
+				BEC264E61A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests */,
+				BEC264CF1A97797000F99FFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC264CF1A97797000F99FFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC264CE1A97797000F99FFB /* UIVIewControllerTouchIDSwift.app */,
+				BEC264E31A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC264D01A97797000F99FFB /* UIVIewControllerTouchIDSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BEC264D31A97797000F99FFB /* AppDelegate.swift */,
+				BEC264D51A97797000F99FFB /* ViewController.swift */,
+				BEC264D71A97797000F99FFB /* Main.storyboard */,
+				BEC264DA1A97797000F99FFB /* Images.xcassets */,
+				BEC264DC1A97797000F99FFB /* LaunchScreen.xib */,
+				BEC264D11A97797000F99FFB /* Supporting Files */,
+				BEC265181A977A1F00F99FFB /* JMEasyTouchID.swift */,
+			);
+			path = UIVIewControllerTouchIDSwift;
+			sourceTree = "<group>";
+		};
+		BEC264D11A97797000F99FFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC264D21A97797000F99FFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEC264E61A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC264E91A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.swift */,
+				BEC264E71A97797000F99FFB /* Supporting Files */,
+			);
+			path = UIVIewControllerTouchIDSwiftTests;
+			sourceTree = "<group>";
+		};
+		BEC264E71A97797000F99FFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEC264E81A97797000F99FFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC264CD1A97797000F99FFB /* UIVIewControllerTouchIDSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC264ED1A97797000F99FFB /* Build configuration list for PBXNativeTarget "UIVIewControllerTouchIDSwift" */;
+			buildPhases = (
+				BEC264CA1A97797000F99FFB /* Sources */,
+				BEC264CB1A97797000F99FFB /* Frameworks */,
+				BEC264CC1A97797000F99FFB /* Resources */,
+				BEC265051A9779A200F99FFB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIVIewControllerTouchIDSwift;
+			productName = UIVIewControllerTouchIDSwift;
+			productReference = BEC264CE1A97797000F99FFB /* UIVIewControllerTouchIDSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC264E21A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC264F01A97797000F99FFB /* Build configuration list for PBXNativeTarget "UIVIewControllerTouchIDSwiftTests" */;
+			buildPhases = (
+				BEC264DF1A97797000F99FFB /* Sources */,
+				BEC264E01A97797000F99FFB /* Frameworks */,
+				BEC264E11A97797000F99FFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC264E51A97797000F99FFB /* PBXTargetDependency */,
+			);
+			name = UIVIewControllerTouchIDSwiftTests;
+			productName = UIVIewControllerTouchIDSwiftTests;
+			productReference = BEC264E31A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC264C61A97797000F99FFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Joan;
+				TargetAttributes = {
+					BEC264CD1A97797000F99FFB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BEC264E21A97797000F99FFB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BEC264CD1A97797000F99FFB;
+					};
+				};
+			};
+			buildConfigurationList = BEC264C91A97797000F99FFB /* Build configuration list for PBXProject "UIVIewControllerTouchIDSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC264C51A97797000F99FFB;
+			productRefGroup = BEC264CF1A97797000F99FFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC264CD1A97797000F99FFB /* UIVIewControllerTouchIDSwift */,
+				BEC264E21A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC264CC1A97797000F99FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC264D91A97797000F99FFB /* Main.storyboard in Resources */,
+				BEC264DE1A97797000F99FFB /* LaunchScreen.xib in Resources */,
+				BEC264DB1A97797000F99FFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC264E11A97797000F99FFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC264CA1A97797000F99FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC264D61A97797000F99FFB /* ViewController.swift in Sources */,
+				BEC265191A977A1F00F99FFB /* JMEasyTouchID.swift in Sources */,
+				BEC264D41A97797000F99FFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC264DF1A97797000F99FFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC264EA1A97797000F99FFB /* UIVIewControllerTouchIDSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC264E51A97797000F99FFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC264CD1A97797000F99FFB /* UIVIewControllerTouchIDSwift */;
+			targetProxy = BEC264E41A97797000F99FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEC264D71A97797000F99FFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC264D81A97797000F99FFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEC264DC1A97797000F99FFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEC264DD1A97797000F99FFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEC264EB1A97797000F99FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC264EC1A97797000F99FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEC264EE1A97797000F99FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = UIVIewControllerTouchIDSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEC264EF1A97797000F99FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = UIVIewControllerTouchIDSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEC264F11A97797000F99FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIVIewControllerTouchIDSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIVIewControllerTouchIDSwift.app/UIVIewControllerTouchIDSwift";
+			};
+			name = Debug;
+		};
+		BEC264F21A97797000F99FFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UIVIewControllerTouchIDSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIVIewControllerTouchIDSwift.app/UIVIewControllerTouchIDSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC264C91A97797000F99FFB /* Build configuration list for PBXProject "UIVIewControllerTouchIDSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC264EB1A97797000F99FFB /* Debug */,
+				BEC264EC1A97797000F99FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC264ED1A97797000F99FFB /* Build configuration list for PBXNativeTarget "UIVIewControllerTouchIDSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC264EE1A97797000F99FFB /* Debug */,
+				BEC264EF1A97797000F99FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEC264F01A97797000F99FFB /* Build configuration list for PBXNativeTarget "UIVIewControllerTouchIDSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC264F11A97797000F99FFB /* Debug */,
+				BEC264F21A97797000F99FFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC264C61A97797000F99FFB /* Project object */;
+}
