@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         useTouchID("touchID", completion: { (success, messageState, errorResult) -> Void in
-            println(messageState)
+            println("error \(errorResult)")
         });
         
         let b = UIButton.buttonWithType(.System) as UIButton
