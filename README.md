@@ -28,7 +28,7 @@ For install, you can add JMEasyTouchID folder to your project.
     - LAErrorTouchIDNotEnrolled   = -7
 
 
-##Requeriments
+##Requirements
 - TouchID.
 - iOS 8 or higher
 
